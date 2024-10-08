@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "Days";
+    src: url("../../plugins/font-days/Days.ttf");
+
+}
+body, html{
+    color: #4d317b;
+    font-family: 'Days';
+    background-color: #d2ecf6;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    background-color: #d2ecf6;
+    align-items: center;
+    display: flex;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-brand-text {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #a993b8;
+}
+
+.btn-logout {
+    margin-left: 20px;
+    background-color: #a993b8;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+/* .content {
+    background-color: #e7f5fa;;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+} */
+
+.text-header {
+  font-size: 24px;
+  font-weight: bold;
+  color: #bd4671;
+  margin-bottom: 10px;
+}
+
+.dashboard {
+    width: 100%;
+    max-width: 600px; /* sesuaikan dengan lebar yang diinginkan */
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* membuat konten ditata secara vertikal */
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    margin: 20px auto; /* memberi jarak di antara setiap konten */
+}
+
+.logo img {
+    width: 30%; /* sesuaikan dengan ukuran logo */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn-masuk {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #ffffff;
+    color: #4d317b;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 600px) {
+    .logo img {
+        width: 50%;
+    }
+    .btn-masuk {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    .dashboard {
+        padding: 0 20px; /* memberi padding untuk layar yang lebih kecil */
+    }
+    .text-content {
+        font-size: 14px; /* menyesuaikan ukuran font untuk layar yang lebih kecil */
+    }
+}

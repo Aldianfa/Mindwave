@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Days";
+    src: url("../plugins/font-days/Days.ttf");
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url('../img/bg.jpg'); */
+    /* background-color: #d2ecf6; */
+    background-color: #e7f4fa; /* warna latar belakang */
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-family: Days;
+    color: #2e2e2e; /* Warna teks yang kontras dengan gambar */
+}
+.background {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 20%;
+    margin-bottom: 54px;
+}
+
+.content {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #d2ecf6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}   
+
+input[type="text"],
+input[type="password"],
+.btn {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.btn {
+    background-color: #a993b8;
+    color: #fff;
+    border: none;
+    /* cursor: pointer; */
+}
+
+.btn:hover {
+    background-color: #bea9cd;
+}

@@ -1,0 +1,96 @@
+
+@font-face {
+    font-family: "Days";
+    src: url("../plugins/font-days/Days.ttf");
+
+}
+
+body, html {
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Days';
+    color: #2e2e2e;
+    background-color: #d2ecf6;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.surat {
+    text-align: center;
+    color: #a179bb;
+    width: 50%;
+    margin: auto;
+}
+
+.dashboard {
+    width: 100%;
+    max-width: 600px; /* sesuaikan dengan lebar yang diinginkan */
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* membuat konten ditata secara vertikal */
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    margin: 20px auto; /* memberi jarak di antara setiap konten */
+}
+
+.logo img {
+    width: 30%; /* sesuaikan dengan ukuran logo */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn-masuk {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #a993b8;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+.btn-daftar {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #ffffff;
+    color: #a993b8;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+    .dashboard {
+        padding: 0 20px; /* memberi padding untuk layar yang lebih kecil */
+    }
+
+    .masuk-button, .daftar-button {
+        padding: 3% 8%; /* menyesuaikan padding untuk layar yang lebih kecil */
+    }
+
+    .logo img {
+        width: 60%; /* menyesuaikan ukuran logo untuk layar yang lebih kecil */
+        max-width: 100%; /* menyesuaikan ukuran logo untuk layar yang lebih kecil */
+    }
+
+    .content {
+        margin: 10px auto; /* memberi jarak di antara setiap konten */
+
+    }
+
+    .text-content {
+        font-size: 14px; /* menyesuaikan ukuran font untuk layar yang lebih kecil */
+    }
+}
+

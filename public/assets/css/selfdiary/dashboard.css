@@ -1,0 +1,244 @@
+@font-face {
+    font-family: "Days";
+    src: url("../../plugins/font-days/Days.ttf");
+
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Days';
+    color: #4d317b;
+    background-color: #e7f5fa;
+}
+
+.text-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #bd4671;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+.btn-diary {
+    color: #ffa6c6;
+    background-color: #bd4671;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-diary:hover {
+    color: #bd4671;
+    background-color: #ffa6c6;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.background {
+    height: 100%;
+    background-color: #d2ecf6; /* warna latar belakang */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .navbar {
+    background-color: #d2ecf6;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+} */
+
+.navbar {
+    background-color: #d2ecf6;
+    align-items: center;
+    display: flex;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-brand-text {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #a993b8;
+}
+
+.btn-logout {
+    margin-left: 20px;
+    background-color: #a993b8;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.content {
+    background-color: #e7f5fa;;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.menu-circle {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: #a993b8;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .menu-circle {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 576px) {
+    .menu-circle {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.footer {
+    /* background-color: #d2ecf6; */
+    background-color: #e7f5fa;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+}
+
+.card {
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.card-title {
+    text-align: left;
+    font-size: 20px;
+    color: #4d317b;
+    text-decoration: none;
+}
+
+.card-text {
+    text-align: left;
+    color: #ff98be;
+    background-color: #fdd4e357;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card-date {
+    font-weight: lighter;
+    color: #a993b8;
+}
+
+/* HALAMAN CREATE */
+.btn-simpan {
+    background-color: #ffa6c6;
+    color: #ffffff;
+    border-width: 2px;
+    border-color: #ffc3d9;
+    border-radius: 12px;
+    padding: 10px 20px;
+}
+
+.btn-simpan:hover {
+    background-color: #bd4671;
+    color: #ffffff;
+    border-width: 2px;
+    border-color: #ffc3d9;
+    border-radius: 12px;
+    padding: 10px 20px;
+}
+
+.btn-kembali {
+    background-color: #a993b8;
+    color: #ffffff;
+    border-width: 2px;
+    border-color: #c3b3cc;
+    border-radius: 12px;
+    padding: 10px 20px;
+}
+
+.btn-kembali:hover {
+    background-color: #4d317b;
+    color: #ffffff;
+    border-width: 2px;
+    border-color: #c3b3cc;
+    border-radius: 12px;
+    padding: 10px 20px;
+}
+
+/* HALAMAN DETAIL */
+.text-detail-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #bd4671;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card-detail-title {
+    text-align: left;
+    font-size: 20px;
+    color: #4d317b;
+    text-decoration: none;
+}
+
+.card-detail-body {
+    text-align: left;
+    color: #4d317b;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn-detail-kembali {
+    background-color: #ffa6c6;
+    color: #ffffff;
+    border-width: 2px;
+    border-color: #ffc3d9;
+    border-radius: 18px;
+    padding: 20px 20px;
+}
+
+.btn-detail-kembali:hover {
+    background-color: #bd4671;
+    color: #ffffff;
+    border-width: 2px;
+    border-color: #ffc3d9;
+    border-radius: 18px;
+    padding: 20px 20px;
+}
